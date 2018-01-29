@@ -3,6 +3,5 @@ git:
   depth: 3
 script:
  - mkdir build
- - cd build
- - cmake ..
+ - cmake
  - make
