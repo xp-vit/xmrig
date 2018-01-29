@@ -2,4 +2,7 @@ language: cpp
 git:
   depth: 3
 script:
- - cmake
+ - mkdir build
+ - cd build
+ - cmake ..
+ - make
